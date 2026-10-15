@@ -14,7 +14,21 @@
         header, main, footer {
             border: 1px solid gray;
         }
+
+        fun-fact {
+            display: block;
+            border: 1px dashed pink;
+            padding: 8px;
+        }
     </style>
+    <script>
+        class HelloWorld extends HTMLElement {
+            connectedCallback() {
+                console.log("Hello, world!");
+            }
+        }
+        customElements.define("hello-world", HelloWorld);
+    </script>
 </head>
 <body>
     <header>
@@ -40,6 +54,7 @@
                      alt="Picture of Kathy"
                      width="300">
                 <figcaption>Helloooo!</figcaption>
+                <hello-world></hello-world>
             </figure>
 
             <h1 id="introduction-heading">Hi, I'm Kathy!</h1>
@@ -50,10 +65,11 @@
                 experiences that bring people together.
             </p>
 
-            <p>
-                Outside of coding, I enjoy exploring new food spots, going
-                to concerts, spending time at the beach, and learning new things.
-            </p>
+            <fun-fact>
+                <strong>Fun Fact!</strong> Outside of coding, I enjoy exploring 
+                new food spots, going to concerts, spending time at the beach, 
+                and learning new things.
+            </fun-fact>
 
             <p>
                 <a href="about.html">More about me</a>
@@ -62,7 +78,7 @@
 
         <section aria-labelledby="timeline-heading">
             <h2 id="timeline-heading">A little timeline of me</h2>
-            <p>Explore a few parts of my life!</p>
+            <p>Explore a <em>few</em> parts of my life!</p>
 
             <ol>
                 <li>
@@ -174,9 +190,9 @@
 
         <nav aria-label="Social links">
             <ul>
-                <li><a href="mailto:YOUR_EMAIL">Email</a></li>
-                <li><a href="YOUR_LINKEDIN_URL">LinkedIn</a></li>
-                <li><a href="YOUR_GITHUB_URL">GitHub</a></li>
+                <li><a href="mailto:kathycharry27@gmail.com">Email</a></li>
+                <li><a href="https://linkedin.com/in/kacharry">LinkedIn</a></li>
+                <li><a href="https://github.com/kcharry">GitHub</a></li>
             </ul>
         </nav>
 
