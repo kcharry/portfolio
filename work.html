@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Kathy's experiences, projects, and leadership.">
+    <title>Explore | Kathy's Portfolio</title>
+    <link rel="icon" type="image/png" href="assets/imgs/cat.png">
+</head>
+
+<body>
+    <header>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li>
+                    <a href="index.html" aria-label="Home">
+                        <img src="assets/imgs/cat.png"
+                             alt="Cute cat"
+                             width="35"
+                             height="35">
+                    </a>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="experiments.html">Experiments</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Explore My Work!</h1>
+        <p>Select a folder to discover more.</p>
+
+        <!-- Experiences -->
+        <section aria-labelledby="experiences-heading">
+            <h2 id="experiences-heading">Experiences</h2>
+
+            <div>
+                <button type="button"
+                        command="show-modal"
+                        commandfor="experience-one">
+                    <img src="assets/imgs/folder.png"
+                         alt="Experience folder"
+                         width="120">
+                    <span>Instructional Assistant</span>
+                </button>
+
+                <dialog id="experience-one">
+                    <article>
+                        <header>
+                            <h3>Instructional Assistant</h3>
+                            <p><strong>UCSD Computer Science &amp; Engineering</strong></p>
+                            <p>La Jolla, CA | Sept. 2026 - Present</p>
+                        </header>
+
+                        <p>
+                            Supporting students in CSE 11, Introduction to Programming
+                            and Computational Problem-Solving: Accelerated Pace.
+                        </p>
+
+                        <h4>What I Do</h4>
+                        <ul>
+                            <li>
+                                Support a course of 600+ students through lectures,
+                                discussion sections, curriculum development, and
+                                open tutoring hours.
+                            </li>
+                            <li>
+                                Help students strengthen their Java programming
+                                and computational problem-solving skills.
+                            </li>
+                            <li>
+                                Review worksheets, readings, and programming
+                                assignments while providing guidance on course
+                                concepts and real-time debugging.
+                            </li>
+                        </ul>
+
+                        <footer>
+                            <p><strong>Focus:</strong> Java, Teaching, Problem-Solving</p>
+                        </footer>
+                    </article>
+
+                    <button type="button" command="close" commandfor="experience-one">
+                        Close
+                    </button>
+                </dialog>
+
+                <button type="button"
+                        command="show-modal"
+                        commandfor="experience-two">
+                    <img src="assets/imgs/folder.png"
+                         alt="Experience folder"
+                         width="120">
+                    <span>Undergraduate Researcher</span>
+                </button>
+                <dialog id="experience-two">
+                    <article>
+                        <header>
+                            <h3>Undergraduate Researcher</h3>
+                            <p><strong>UCSD Computer Science &amp; Engineering</strong></p>
+                            <p>La Jolla, CA | Sept. 2025 - Present</p>
+                        </header>
+
+                        <p>
+                            Developing tools to automate Split-LAMP primer design
+                            for microRNA (miRNA) detection in biomedical research.
+                        </p>
+
+                        <h4>What I Do</h4>
+                        <ul>
+                            <li>
+                                Developed a web application using JavaScript, HTML,
+                                and CSS to automate primer design.
+                            </li>
+                            <li>
+                                Calculated GC content, melting temperature, and
+                                Gibbs free energy (ΔG), while screening for
+                                secondary structures.
+                            </li>
+                            <li>
+                                Collaborated with undergraduate researchers to
+                                test generated primers in the lab, analyze results,
+                                and iteratively improve the design process.
+                            </li>
+                        </ul>
+
+                        <footer>
+                            <p><strong>Focus:</strong> Web Development, Biology, Research</p>
+                        </footer>
+                    </article>
+
+                    <button type="button" command="close" commandfor="experience-two">
+                        Close
+                    </button>
+                </dialog>
+
+                <button type="button"
+                        command="show-modal"
+                        commandfor="experience-three">
+                    <img src="assets/imgs/folder.png"
+                         alt="Experience folder"
+                         width="120">
+                    <span>Lead Peer Mentor</span>
+                </button>
+
+                <dialog id="experience-three">
+                    <article>
+                        <header>
+                            <h3>Lead Peer Mentor</h3>
+                            <p><strong>CSE-PACE, UC San Diego</strong></p>
+                            <p>La Jolla, CA | Sept. 2025 - Present</p>
+                        </header>
+
+                        <p>
+                            Helping first-year Computer Science and Engineering
+                            students navigate college, build connections, and
+                            grow academically and professionally.
+                        </p>
+
+                        <h4>What I Do</h4>
+                        <ul>
+                            <li>
+                                Lead weekly meetings for 30+ first-year CSE students,
+                                coordinating technical lessons and community-building
+                                activities.
+                            </li>
+                            <li>
+                                Organize industry panels and discussions with
+                                professors and graduate students to introduce
+                                students to academic and career opportunities.
+                            </li>
+                            <li>
+                                Design and manage weekly social media content,
+                                using student engagement to promote events and
+                                increase program participation.
+                            </li>
+                        </ul>
+
+                        <footer>
+                            <p><strong>Focus:</strong> Mentorship, Leadership, Community Outreach</p>
+                        </footer>
+                    </article>
+                    <button type="button" command="close" commandfor="experience-three">Close</button>
+                </dialog>
+            </div>
+
+            <div>
+                <button type="button"
+                        command="show-modal"
+                        commandfor="experience-four">
+                    <img src="assets/imgs/folder.png"
+                         alt="Experience folder"
+                         width="120">
+                    <span>Microsoft Explorer Intern</span>
+                </button>
+
+                <dialog id="experience-four">
+                    <article>
+                        <header>
+                            <h3>Explorer Intern</h3>
+                            <p><strong>Microsoft</strong></p>
+                            <p>Redmond, WA | June 2026 - Sept. 2026</p>
+                        </header>
+
+                        <p>
+                            Built an AI-powered data lineage tool to help engineers
+                            trace table fields back to their source telemetry events
+                            across multiple repositories.
+                        </p>
+
+                        <h4>What I Built</h4>
+                        <ul>
+                            <li>
+                                Developed a data lineage tracer using C#, .NET,
+                                and Azure OpenAI, reducing investigation time
+                                from hours to seconds.
+                            </li>
+                            <li>
+                                Evaluated LLM, RAG, and hybrid retrieval approaches
+                                against a hand-traced ground-truth dataset. The
+                                selected hybrid approach achieved approximately
+                                90% accuracy with around 7 minutes of processing
+                                per field.
+                            </li>
+                            <li>
+                                Designed a Kusto data model to store lineage paths
+                                and supporting evidence for querying and analysis.
+                            </li>
+                            <li>
+                                Built a React, Vite, and TypeScript web application
+                                and a Copilot agent skill for visual exploration
+                                and natural-language queries.
+                            </li>
+                        </ul>
+
+                        <footer>
+                            <p>
+                                <strong>Technologies:</strong>
+                                C#, .NET, Azure OpenAI, RAG, Kusto, React, TypeScript
+                            </p>
+                        </footer>
+                    </article>
+                    <button type="button" command="close" commandfor="experience-four">Close</button>
+                </dialog>
+
+                <button type="button"
+                        command="show-modal"
+                        commandfor="experience-five">
+                    <img src="assets/imgs/folder.png"
+                         alt="Experience folder"
+                         width="120">
+                    <span>STEM Instructor Intern</span>
+                </button>
+
+                <dialog id="experience-five">
+                    <article>
+                        <header>
+                            <h3>STEM Instructor Intern</h3>
+                            <p><strong>Lavner Education</strong></p>
+                            <p>San Diego, CA | June 2025 - August 2025</p>
+                        </header>
+
+                        <p>
+                            Taught STEM and technology courses to students with
+                            different ages, interests, and levels of programming
+                            experience.
+                        </p>
+
+                        <h4>What I Did</h4>
+                        <ul>
+                            <li>
+                                Taught 80+ students across App Development,
+                                Web Development, Robotics with Python, and
+                                Minecraft Design &amp; Innovation camps.
+                            </li>
+                            <li>
+                                Adapted technical concepts to students with
+                                varying levels of programming experience.
+                            </li>
+                            <li>
+                                Provided real-time debugging and coding support,
+                                helping 100% of students complete their
+                                end-of-week projects.
+                            </li>
+                        </ul>
+
+                        <footer>
+                            <p>
+                                <strong>Focus:</strong>
+                                Python, Web Development, App Development, Teaching
+                            </p>
+                        </footer>
+                    </article>
+                    <button type="button" command="close" commandfor="experience-five">Close</button>
+                </dialog>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section aria-labelledby="projects-heading">
+            <h2 id="projects-heading">Projects</h2>
+
+            <div>
+                <button type="button"
+                        command="show-modal"
+                        commandfor="project-one">
+                    <img src="assets/imgs/folder.png"
+                         alt="Project folder"
+                         width="120">
+                    <span>PolicyGuard</span>
+                </button>
+
+                <dialog id="project-one">
+                    <article>
+                        <header>
+                            <h3>PolicyGuard</h3>
+                            <p><strong>Full Stack Developer</strong></p>
+                            <p>Microsoft Global Intern Hackathon 2026</p>
+                        </header>
+
+                        <p>
+                            Built an AI-assisted privacy and compliance scanner
+                            that identifies risks in source code and datasets,
+                            explains violations, and proposes fixes.
+                        </p>
+
+                        <h4>What I Built</h4>
+                        <ul>
+                            <li>
+                                Developed an asynchronous scanning service using
+                                C#, ASP.NET Core, and Entity Framework Core.
+                            </li>
+                            <li>
+                                Built a React and TypeScript frontend to display
+                                detected privacy and security risks and suggested fixes.
+                            </li>
+                            <li>
+                                Implemented AI-assisted analysis to help users
+                                understand violations and review potential fixes.
+                            </li>
+                        </ul>
+
+                        <p>
+                            <strong>Achievement:</strong>
+                            1st Place, Leverage AI for Data track
+                            at the Microsoft Global Intern Hackathon 2026.
+                        </p>
+
+                        <footer>
+                            <p>
+                                <strong>Technologies:</strong>
+                                C#, ASP.NET Core, React, TypeScript, EF Core
+                            </p>
+                            <p>
+                                <a href="https://github.com/Vyshnavi-MSFT/policyguard">
+                                    View on GitHub
+                                </a>
+                            </p>
+                        </footer>
+                    </article>
+
+                    <button type="button" command="close" commandfor="project-one">
+                        Close
+                    </button>
+                </dialog>
+
+
+                <button type="button"
+                        command="show-modal"
+                        commandfor="project-two">
+                    <img src="assets/imgs/folder.png"
+                         alt="Project folder"
+                         width="120">
+                    <span>Runway Avenue Site</span>
+                </button>
+
+                <dialog id="project-two">
+                    <article>
+                        <header>
+                            <h3>Runway Avenue Website</h3>
+                            <p><strong>Full Stack Developer</strong></p>
+                            <p>CSE Society at UCSD</p>
+                        </header>
+
+                        <p>
+                            Developed the official marketing website for a
+                            fashion-tech startup, showcasing its features,
+                            company updates, and announcements.
+                        </p>
+
+                        <h4>What I Built</h4>
+                        <ul>
+                            <li>
+                                Developed a responsive website using Next.js,
+                                React, TypeScript, and Tailwind CSS.
+                            </li>
+                            <li>
+                                Created dynamic Blog and Learn More pages
+                                to showcase content and product information.
+                            </li>
+                            <li>
+                                Implemented privacy-conscious session tracking
+                                and behavioral analytics to support user acquisition.
+                            </li>
+                        </ul>
+
+                        <footer>
+                            <p>
+                                <strong>Technologies:</strong>
+                                Next.js, React, TypeScript, Tailwind CSS, Supabase
+                            </p>
+                            <p>
+                                <a href="https://github.com/CSES-Dev/runway-ave">
+                                    View on GitHub
+                                </a>
+                            </p>
+                        </footer>
+                    </article>
+
+                    <button type="button" command="close" commandfor="project-two">
+                        Close
+                    </button>
+                </dialog>
+
+                <button type="button"
+                        command="show-modal"
+                        commandfor="project-three">
+                    <img src="assets/imgs/folder.png"
+                         alt="Project folder"
+                         width="120">
+                    <span>Autumn Moon Festival Site</span>
+                </button>
+
+                <dialog id="project-three">
+                    <article>
+                        <header>
+                            <h3>Autumn Moon Festival Site</h3>
+                            <p><strong>Front-end Developer</strong></p>
+                            <p>Design Co UP-Grade</p>
+                        </header>
+
+                        <p>
+                            Collaborated with a cross-functional team to build
+                            a website promoting an Autumn Moon Festival hosted
+                            by a nonprofit partner.
+                        </p>
+
+                        <h4>What I Built</h4>
+                        <ul>
+                            <li>
+                                Developed a responsive website using Vue.js
+                                to share festival information and promote attendance.
+                            </li>
+                            <li>
+                                Incorporated user research and stakeholder feedback
+                                into the website's design and implementation.
+                            </li>
+                            <li>
+                                Worked with teammates to deliver a cohesive
+                                experience for the nonprofit's audience.
+                            </li>
+                        </ul>
+
+                        <footer>
+                            <p><strong>Technologies:</strong> Vue.js, HTML, CSS</p>
+                            <p>
+                                <a href="https://github.com/alanttran/autumnmoon">
+                                    View on GitHub
+                                </a>
+                            </p>
+                            <p>
+                                <a href="https://alanttran.github.io/autumnmoon/">
+                                    View Live Project
+                                </a>
+                            </p>
+                        </footer>
+                    </article>
+
+                    <button type="button" command="close" commandfor="project-three">
+                        Close
+                    </button>
+                </dialog>
+            </div>
+        </section>
+
+        <!-- Leadership -->
+        <section aria-labelledby="leadership-heading">
+            <h2 id="leadership-heading">Leadership</h2>
+
+            <div>
+                <button type="button" command="show-modal" commandfor="leadership-one">
+                    <img src="assets/imgs/folder.png" alt="Vice President of Outreach folder" width="120">
+                    <span>Outreach - Vice President</span>
+                </button>
+
+                <dialog id="leadership-one">
+                    <article>
+                        <header>
+                            <h3>Vice President of Outreach</h3>
+                            <p><strong>Association for Computing Machinery (ACM), UCSD</strong></p>
+                            <p>La Jolla, CA | May 2026 - Present</p>
+                        </header>
+
+                        <p>
+                            Help expand access to computer science education for
+                            underrepresented students through community partnerships
+                            and hands-on workshops.
+                        </p>
+
+                        <h4>Responsibilities</h4>
+                        <ul>
+                            <li>Reach out to local organizations and schools to coordinate computer science workshops for underrepresented students.</li>
+                            <li>Provide the outreach team with tools and resources to develop new workshops and refine existing ones.</li>
+                        </ul>
+
+                        <footer>
+                            <p><strong>Focus:</strong> Leadership, Outreach, STEM Education, Mentorship</p>
+                        </footer>
+                    </article>
+
+                    <button type="button" command="close" commandfor="leadership-one">Close</button>
+                </dialog>
+
+                <button type="button" command="show-modal" commandfor="leadership-two">
+                    <img src="assets/imgs/folder.png" alt="Outreach Logistics Lead folder" width="120">
+                    <span>Outreach - Logistics Lead</span>
+                </button>
+
+                <dialog id="leadership-two">
+                    <article>
+                        <header>
+                            <h3>Outreach Logistics Lead</h3>
+                            <p><strong>Association for Computing Machinery (ACM), UCSD</strong></p>
+                            <p>La Jolla, CA | May 2025 - May 2026</p>
+                        </header>
+
+                        <p>
+                            Helped connect local students with computer science education
+                            by coordinating community partnerships and leading interactive workshops.
+                        </p>
+
+                        <h4>Highlights</h4>
+                        <ul>
+                            <li>Built and maintained partnerships with 7 local organizations and schools, helping provide computer science workshops to 200+ students.</li>
+                            <li>Led interactive Python, Scratch, and Machine Learning workshops to introduce students to computer science.</li>
+                            <li>Helped design an App Development workshop covering app design and programming fundamentals.</li>
+                        </ul>
+
+                        <footer>
+                            <p><strong>Focus:</strong> Workshop Facilitation, Community Outreach, Python, Scratch, Machine Learning</p>
+                        </footer>
+                    </article>
+
+                    <button type="button" command="close" commandfor="leadership-two">Close</button>
+                </dialog>
+            </div>
+        </section>
+
+        <!-- Storage-style progress bar -->
+        <section aria-labelledby="storage-heading">
+            <h2 id="storage-heading">Portfolio Storage</h2>
+            <p>Storage used: 65%</p>
+            <progress value="65" max="100">65%</progress>
+        </section>
+    </main>
+
+    <footer>
+        <h2>Kathy Charry</h2>
+        <p>Computer Science Student at UC San Diego</p>
+
+        <nav aria-label="Social links">
+            <ul>
+                <li><a href="mailto:kathycharry27@gmail.com">Email</a></li>
+                <li><a href="https://linkedin.com/in/kacharry">LinkedIn</a></li>
+                <li><a href="https://github.com/kcharry">GitHub</a></li>
+            </ul>
+        </nav>
+
+        <p><small>&copy; 2026 Kathy Charry</small></p>
+    </footer>
+</body>
+</html>
