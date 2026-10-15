@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kathy Charry's personal portfolio, featuring her background, projects, and experience in software engineering.">
+    <title>Kathy's Portfolio</title>
+    <link rel="icon" type="image/png" href="assets/imgs/cat.png">
+    <style>
+        body {
+            border: 1px solid black;
+        }
+
+        header, main, footer {
+            border: 1px solid gray;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li>
+                    <a href="index.html" aria-label="Home">
+                        <img src="assets/imgs/cat.png" alt="Cute cat" width="35" height="35">
+                    </a>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="experiments.html">Experiments</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section aria-labelledby="introduction-heading">
+            <figure>
+                <img src="assets/imgs/profile.jpg"
+                     alt="Picture of Kathy"
+                     width="300">
+                <figcaption>Helloooo!</figcaption>
+            </figure>
+
+            <h1 id="introduction-heading">Hi, I'm Kathy!</h1>
+
+            <p>
+                I'm a computer science student interested in software
+                engineering, building useful technology, and creating
+                experiences that bring people together.
+            </p>
+
+            <p>
+                Outside of coding, I enjoy exploring new food spots, going
+                to concerts, spending time at the beach, and learning new things.
+            </p>
+
+            <p>
+                <a href="about.html">More about me</a>
+            </p>
+        </section>
+
+        <section aria-labelledby="timeline-heading">
+            <h2 id="timeline-heading">A little timeline of me</h2>
+            <p>Explore a few parts of my life!</p>
+
+            <ol>
+                <li>
+                    <button type="button"
+                            command="show-modal"
+                            commandfor="hometown-dialog">
+                        <img src="assets/imgs/placeholder.png"
+                            alt=""
+                            width="100">
+                        <span><b><i>Hometown!</i></b></span>
+                    </button>
+
+                    <dialog id="hometown-dialog"
+                            aria-labelledby="hometown-heading">
+                        <h3 id="hometown-heading">Hometown!</h3>
+                        <img src="assets/imgs/placeholder.png"
+                            alt=""
+                            width="300">
+                        <p>Born and raised in San Diego!</p>
+                        <button type="button"
+                                command="close"
+                                commandfor="hometown-dialog">
+                            Close
+                        </button>
+                    </dialog>
+                </li>
+
+                <li>
+                    <button type="button"
+                            command="show-modal"
+                            commandfor="high-school-dialog">
+                        <img src="assets/imgs/placeholder.png"
+                            alt=""
+                            width="100">
+                        <span><b><i>High School</i></b></span>
+                    </button>
+
+                    <dialog id="high-school-dialog"
+                            aria-labelledby="high-school-heading">
+                        <h3 id="high-school-heading">High School</h3>
+                        <img src="assets/imgs/placeholder.png"
+                            alt=""
+                            width="300">
+                        <p>Graduated from Steele Canyon High School in 2024.</p>
+                        <button type="button"
+                                command="close"
+                                commandfor="high-school-dialog">
+                            Close
+                        </button>
+                    </dialog>
+                </li>
+
+                <li>
+                    <button type="button"
+                            command="show-modal"
+                            commandfor="ucsd-dialog">
+                        <img src="assets/imgs/placeholder.png"
+                            alt=""
+                            width="100">
+                        <span><b><i>Undergrad at UCSD</i></b></span>
+                    </button>
+
+                    <dialog id="ucsd-dialog"
+                            aria-labelledby="ucsd-heading">
+                        <h3 id="ucsd-heading">Undergrad at UCSD</h3>
+                        <img src="assets/imgs/placeholder.png"
+                            alt=""
+                            width="300">
+                        <p>Currently attending UCSD for my undergraduate degree in Computer Science.</p>
+                        <button type="button"
+                                command="close"
+                                commandfor="ucsd-dialog">
+                            Close
+                        </button>
+                    </dialog>
+                </li>
+
+                <li>
+                    <button type="button"
+                            command="show-modal"
+                            commandfor="future-dialog">
+                        <img src="assets/imgs/placeholder.png"
+                            alt=""
+                            width="100">
+                        <span><b><i>Future...</i></b></span>
+                    </button>
+
+                    <dialog id="future-dialog"
+                            aria-labelledby="future-heading">
+                        <h3 id="future-heading">Future...</h3>
+                        <img src="assets/imgs/placeholder.png"
+                            alt=""
+                            width="300">
+                        <p>Aspiring software engineer!</p>
+                        <button type="button"
+                                command="close"
+                                commandfor="future-dialog">
+                            Close
+                        </button>
+                    </dialog>
+                </li>
+            </ol>
+        </section>
+    </main>
+
+    <footer>
+        <h2>Kathy Charry</h2>
+        <p>Computer Science Student at UC San Diego</p>
+
+        <nav aria-label="Social links">
+            <ul>
+                <li><a href="mailto:YOUR_EMAIL">Email</a></li>
+                <li><a href="YOUR_LINKEDIN_URL">LinkedIn</a></li>
+                <li><a href="YOUR_GITHUB_URL">GitHub</a></li>
+            </ul>
+        </nav>
+
+        <p><small>&copy; 2026 Kathy Charry</small></p>
+    </footer>
+</body>
+</html>
